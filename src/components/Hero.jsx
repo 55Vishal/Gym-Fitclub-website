@@ -76,7 +76,6 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-      <button className="btn"> Join Now</button>
 
       <motion.div
       initial={{ right: '-1rem'}}

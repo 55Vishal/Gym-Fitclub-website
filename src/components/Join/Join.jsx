@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import "./Join.css";
 import emailjs from '@emailjs/browser'
-import { Link } from "react-scroll";
 
 const Join = () => {
 const  form = useRef()

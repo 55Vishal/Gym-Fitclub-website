@@ -3,6 +3,8 @@ import "./Header.css";
 import Logo from "../../assets/logo.png";
 import Bars from "../../assets/bars.png";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -24,6 +26,10 @@ const Header = () => {
         </div>
       ) : (
         <ul className="header-menu">
+
+       <li>
+          <NavLink to='/about'> About</NavLink>
+       </li>
           <li>
             <Link
               onClick={() => setMenuOpened(false)}

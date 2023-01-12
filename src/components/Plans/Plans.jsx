@@ -2,7 +2,6 @@ import React from "react";
 import "./Plans.css";
 import whiteTick from '../../assets/whiteTick.png'
 import { plansData } from '../../data/plansData'
-import { Link } from "react-scroll";
 
 const Plans = () => {
   return (
